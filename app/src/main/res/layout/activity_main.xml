@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oxy.library.PriorityLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:text="If you look for it, I've got a sneaky feeling you'll find that love actually is all around.\n如果你仔细寻找，就会发现爱其实无处不在。"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ListView
+        android:id="@+id/listView"
+        android:background="#7fff0000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        app:measure_priority="1"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:onClick="onAddChild"
+            android:text="  add  "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:onClick="onRemoveChild"
+            android:layout_marginLeft="20dp"
+            android:text="  remove  "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</com.oxy.library.PriorityLinearLayout>
