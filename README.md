@@ -3,8 +3,7 @@
 # 应用场景
 如下图中间的视图是个listView，listView的下面跟着一个添加删除按钮，若listView铺不满屏幕，则添加删除按钮紧跟其后，若超出屏幕，则添加删除按钮在最底部。
 如果用PriorityLinearLayout则可以轻松实现。只需在子视图增加一个属性measure_priority（大于0的int值）即可。
- ![image](https://github.com/ouxiaoyong/PriorityLinearLayout/blob/master/images/device-2018-10-11-144409.png)
- ![image](https://github.com/ouxiaoyong/PriorityLinearLayout/blob/master/images/device-2018-10-11-144443.png)
+ ![image](https://github.com/ouxiaoyong/PriorityLinearLayout/blob/master/images/image1.png)
 # 用法
 project/build.gradle
 allprojects {
