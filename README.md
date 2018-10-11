@@ -18,7 +18,7 @@ allprojects {
   
 app/build.gradle     
 dependencies {  
-	      implementation 'com.github.ouxiaoyong:PriorityLinearLayout:Tag'  
+	      implementation 'com.github.ouxiaoyong:PriorityLinearLayout:v1.0'  
 }  
   
  将原有的LinearLayout标签替换成com.oxy.library.PriorityLinearLayout标签
