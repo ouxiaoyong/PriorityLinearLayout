@@ -5,7 +5,7 @@
 如果用PriorityLinearLayout则可以轻松实现。只需在子视图增加一个属性measure_priority（大于0的int值）即可。
  ![image](https://github.com/ouxiaoyong/PriorityLinearLayout/blob/master/images/image1.png)
 # 用法
-project/build.gradle<br />
+project/build.gradle  
 
 allprojects {
 	repositories {
@@ -14,7 +14,7 @@ allprojects {
 	}
 	}
   
-  app/build.gradle<br />
+  app/build.gradle  
   dependencies {
 	        implementation 'com.github.ouxiaoyong:PriorityLinearLayout:Tag'
 	}
