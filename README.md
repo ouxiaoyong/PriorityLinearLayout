@@ -12,14 +12,14 @@ allprojects {
 		...  
 		maven { url 'https://jitpack.io' }  
 	}  
-	}  
+}  
   
-  app/build.gradle     
-  dependencies {  
-	        implementation 'com.github.ouxiaoyong:PriorityLinearLayout:Tag'  
-	}  
+app/build.gradle     
+dependencies {  
+	      implementation 'com.github.ouxiaoyong:PriorityLinearLayout:Tag'  
+}  
   
-  将原有的LinearLayout标签替换成com.oxy.library.PriorityLinearLayout标签
+ 将原有的LinearLayout标签替换成com.oxy.library.PriorityLinearLayout标签
 <?xml version="1.0" encoding="utf-8"?>
 <com.oxy.library.PriorityLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
