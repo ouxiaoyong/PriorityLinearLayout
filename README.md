@@ -7,17 +7,17 @@
 # 用法
 project/build.gradle  
 
-allprojects {
-	repositories {
-		...
-		maven { url 'https://jitpack.io' }
-	}
-	}
+allprojects {  
+	repositories {  
+		...  
+		maven { url 'https://jitpack.io' }  
+	}  
+	}  
   
-  app/build.gradle  
-  dependencies {
-	        implementation 'com.github.ouxiaoyong:PriorityLinearLayout:Tag'
-	}
+  app/build.gradle     
+  dependencies {  
+	        implementation 'com.github.ouxiaoyong:PriorityLinearLayout:Tag'  
+	}  
   
   将原有的LinearLayout标签替换成com.oxy.library.PriorityLinearLayout标签
 <?xml version="1.0" encoding="utf-8"?>
