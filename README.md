@@ -2,6 +2,8 @@
 这是一个可以自定义子View measure顺序的LinearLayout框架
 # 应用场景
 如下图中间的视图是个listView，listView的下面跟着一个添加删除按钮，若listView铺不满屏幕，则添加删除按钮紧跟其后，若超出屏幕，则添加删除按钮在最底部。
+如果直接使用LinearLayout，将ListView的android:layout_height="wrap_content",内容少则正常，如果内容多则添加删除按钮则会“消失”。
+
 如果用PriorityLinearLayout则可以轻松实现。只需在子视图增加一个属性measure_priority（大于0的int值）即可。
  ![image](https://github.com/ouxiaoyong/PriorityLinearLayout/blob/master/images/image1.png)
 # 用法
