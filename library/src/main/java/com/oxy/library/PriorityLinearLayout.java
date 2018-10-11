@@ -3,7 +3,6 @@ package com.oxy.library;
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.res.TypedArray;
-import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.View;
 import android.view.ViewGroup;
@@ -23,10 +22,10 @@ public class PriorityLinearLayout extends LinearLayout {
             return o2.priority - o1.priority;
         }
     };
-    public PriorityLinearLayout(Context context, @Nullable AttributeSet attrs) {
+    public PriorityLinearLayout(Context context, AttributeSet attrs) {
         this(context, attrs,0);
     }
-    public PriorityLinearLayout(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
+    public PriorityLinearLayout(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
     }
 
