@@ -9,6 +9,8 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
         android:text="If you look for it, I've got a sneaky feeling you'll find that love actually is all around.\n如果你仔细寻找，就会发现爱其实无处不在。"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
