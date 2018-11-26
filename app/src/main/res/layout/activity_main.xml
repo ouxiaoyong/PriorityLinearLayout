@@ -20,6 +20,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
     <LinearLayout
+        android:id="@+id/layout"
         app:measure_priority="1"
         android:gravity="center"
         android:layout_width="match_parent"
